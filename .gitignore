@@ -1,0 +1,3 @@
+/data/precomputed_features/evaluate/*
+/checkpoints/*
+/logs/*
