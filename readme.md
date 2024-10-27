@@ -5,15 +5,7 @@ This is the codebase for ProxyFusion: Face Feature Aggregation Through Sparse Ex
 > Abstract:
 Face feature fusion is indispensable for robust face recognition, particularly in scenarios involving long-range, low-resolution media (unconstrained environments) where not all frames or features are equally informative. Existing methods often rely on large intermediate feature maps or face metadata information, making them incompatible with legacy biometric template databases that store pre-computed features. Additionally, real-time inference and generalization to large probe sets remains challenging. To address these limitations, we introduce a linear time proxy based sparse expert selection and pooling approach for context driven feature-set attention. Our approach is order invariant on the feature-set, generalizes to large sets, is compatible with legacy template stores, and utilizes significantly less parameters making it suitable real-time inference and edge use-cases. Through qualitative experiments, we demonstrate that ProxyFusion learns discriminative information for importance weighting of face features without relying on intermediate features. Quantitative evaluations on challenging low-resolution face verification datasets such as IARPA BTS3.1 and DroneSURF show the superiority of ProxyFusion in unconstrained long-range face recognition setting. Code and pretrained models will be released upon acceptance.
 
-![image info](./images/architecture.png)
-
-## Running Screenshots 
-
-**Training Screenshot:**
-![Training Screenshot](./images/training_screenshot.png)
-**Evaluation Screenshot:**
-![Evaluation Screenshot](./images/evaluation_screenshot.png)
-
+<img src="./images/architecture.png" alt="architecture" width="200"/>
 
 ## Setup Environment
 
@@ -134,6 +126,13 @@ python ./evaluation/Eval_BRIAR.py \
     --face_detector "Retinaface" \
     --face_feature_extractor "Adaface"
 ```
+
+## Running Screenshots 
+
+**Training Screenshot:**
+![Training Screenshot](./images/training_screenshot.png)
+**Evaluation Screenshot:**
+![Evaluation Screenshot](./images/evaluation_screenshot.png)
 
 ### Bibliography / References:
 
