@@ -127,11 +127,11 @@ python ./evaluation/Eval_BRIAR.py \
     --face_feature_extractor "Adaface"
 ```
 
-## Running Screenshots 
+## Runs 
 
-**Training Screenshot:**
+**Training:**
 ![Training Screenshot](./images/training_screenshot.png)
-**Evaluation Screenshot:**
+**Evaluation:**
 ![Evaluation Screenshot](./images/evaluation_screenshot.png)
 
 ### Bibliography / References:
